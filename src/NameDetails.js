@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import nameDetails from './data';
 import axios from 'axios';
-import Skills from './Skills'
+//import Skills from './Skills'
 
 function NameDetails() {
   const [selectedName, setSelectedName] = useState('');
@@ -78,7 +78,7 @@ function NameDetails() {
           {loading ? (
             <p>Loading file...</p>
           ) : (
-            <Skills fileContent={fileContent} />
+     
             
           )}
         </li></ul>

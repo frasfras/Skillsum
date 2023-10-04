@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import './style.css'
-import './bootstrap.min.css'
+import './style.css';
+//import './bootstrap.min.css'
 
 // import MyForm from './MyForm';
 import NameDetails from './NameDetails';

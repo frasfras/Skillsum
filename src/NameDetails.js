@@ -79,7 +79,7 @@ function NameDetails() {
             <p>Loading file...</p>
           ) : (
      
-            
+                   <Skills fileContent={fileContent} />
           )}
         </li></ul>
       )}

@@ -24,13 +24,14 @@ class EsignatureWorkflow extends Component {
     const { name, value } = event.target;
     this.setState({ [name]: value });
   };
-
+  //  API integration code
   initiateSignature = async () => {
     const { selectedDocument, candidateName, candidateEmail } = this.state;
+     //  API request to initiate e-signature
     const response =  await axios.post('https://cute-halva-229db0.netlify.app/.netlify/functions/api/sign',{email:candidateEmail,name:candidateName});
     
-    //  API request to initiate e-signature
-    // Replace with actual API integration code
+   
+   
     
 
       const data = await response.json();
